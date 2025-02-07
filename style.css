@@ -1,0 +1,24 @@
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+}
+
+body {
+    height: 100vh; /* Define a altura do corpo da página para 100% da altura da janela de visualização (viewport) */
+    background-color: #000000; /* Define a cor de fundo do corpo como preta */
+    color: #F6F6F6; /* Define a cor do texto do corpo como um tom claro de cinza */
+}
+
+.titulo-destaque {
+    color: #007bff; /* Define a cor do texto da classe "titulo-destaque" como azul */
+}
+
+.urgente {
+    color: red; /* Define a cor do texto da classe "urgente" como vermelha para destacar algo urgente */
+}
+
+p {
+    margin: 10px; /* Define uma margem de 10 pixels ao redor dos parágrafos */
+    border: 2px solid black; /* Adiciona uma borda preta de 2 pixels ao redor dos parágrafos */
+    padding: 5px; /* Adiciona um preenchimento de 5 pixels dentro dos parágrafos */
+}
