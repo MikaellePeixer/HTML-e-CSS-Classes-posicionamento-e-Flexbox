@@ -22,3 +22,7 @@ p {
     border: 2px solid black; /* Adiciona uma borda preta de 2 pixels ao redor dos parágrafos */
     padding: 5px; /* Adiciona um preenchimento de 5 pixels dentro dos parágrafos */
 }
+
+.apresentacao {
+    display: flex;
+}
