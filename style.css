@@ -25,4 +25,5 @@ p {
 
 .apresentacao {
     display: flex;
+    align-items: center;
 }
