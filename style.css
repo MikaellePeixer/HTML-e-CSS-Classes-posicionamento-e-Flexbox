@@ -14,10 +14,6 @@ body {
     color: #007bff; /* Define a cor do texto da classe "titulo-destaque" como azul */
 }
 
-.urgente {
-    color: red; /* Define a cor do texto da classe "urgente" como vermelha para destacar algo urgente */
-}
-
 p {
     margin: 10px; /* Define uma margem de 10 pixels ao redor dos parágrafos */
     border: 2px solid black; /* Adiciona uma borda preta de 2 pixels ao redor dos parágrafos */
@@ -34,4 +30,16 @@ p {
     align-items: center;  
     /* Distribui os itens horizontalmente, colocando um no início e outro no final do container */
     justify-content: space-between;  
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
 }
