@@ -22,11 +22,16 @@ p {
     margin: 10px; /* Define uma margem de 10 pixels ao redor dos parágrafos */
     border: 2px solid black; /* Adiciona uma borda preta de 2 pixels ao redor dos parágrafos */
     padding: 5px; /* Adiciona um preenchimento de 5 pixels dentro dos parágrafos */
+
 }
-.apresentacao {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
+/* Seleciona a classe .apresentacao para aplicar os estilos */
+.apresentacao {  
+    /* Define uma margem de 10% em todos os lados, criando espaçamento externo */
+    margin: 10%;  
+    /* Define o modelo de exibição como flexível, permitindo o alinhamento dos elementos internos */
+    display: flex;  
+    /* Alinha os itens verticalmente ao centro dentro do container */
+    align-items: center;  
+    /* Distribui os itens horizontalmente, colocando um no início e outro no final do container */
+    justify-content: space-between;  
 }
