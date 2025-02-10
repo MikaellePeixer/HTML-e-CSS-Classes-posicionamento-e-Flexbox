@@ -47,3 +47,8 @@ p {
 .apresentacao__conteudo__texto {
     font-size: 24px; /* O texto terá um tamanho de 24 pixels */
 }
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
