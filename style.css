@@ -52,8 +52,11 @@ p {
 }
 
 .apresentacao__links {
-    display: flex;
-    justify-content: space-between;
+    display: flex; /* Define que o container usará o Flexbox para organizar os itens */
+    flex-direction: column; /* Alinha os itens em uma coluna (um embaixo do outro) */
+    justify-content: space-between; /* Distribui o espaço vazio igualmente entre os itens */
+    align-items: center; /* Centraliza os itens no meio do container (horizontalmente) */
+    gap: 32px; /* Define um espaço de 32px entre cada item */
 }
 
 .apresentacao__links__link {
