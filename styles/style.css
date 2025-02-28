@@ -12,8 +12,20 @@ body {
     color: #F6F6F6; /* Define a cor do texto do corpo como um tom claro de cinza */
 }
 
-.titulo-destaque {
-    color: #22d4fd; /* Define a cor do texto da classe "titulo-destaque" como azul */
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
 }
 
 p {
@@ -25,7 +37,7 @@ p {
 /* Seleciona a classe .apresentacao para aplicar os estilos */
 .apresentacao {  
     /* Define uma margem de 10% em todos os lados, criando espaçamento externo */
-    margin: 8% 15%;   
+    padding: 8% 15%;   
     /* Define o modelo de exibição como flexível, permitindo o alinhamento dos elementos internos */
     display: flex;  
     /* Alinha os itens verticalmente ao centro dentro do container */
@@ -44,6 +56,10 @@ p {
 .apresentacao__conteudo__titulo {
     font-size: 36px; /* O texto do título será exibido com um tamanho de 36 pixels */
     font-family: 'Krona One', sans-serif;
+}
+
+.titulo-destaque {
+    color: #22d4fd; /* Define a cor do texto da classe "titulo-destaque" como azul */
 }
 
 .apresentacao__conteudo__texto {
