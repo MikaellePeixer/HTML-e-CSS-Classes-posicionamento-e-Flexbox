@@ -25,7 +25,7 @@ p {
 /* Seleciona a classe .apresentacao para aplicar os estilos */
 .apresentacao {  
     /* Define uma margem de 10% em todos os lados, criando espaçamento externo */
-    margin: 10% 15%;   
+    margin: 8% 15%;   
     /* Define o modelo de exibição como flexível, permitindo o alinhamento dos elementos internos */
     display: flex;  
     /* Alinha os itens verticalmente ao centro dentro do container */
@@ -67,6 +67,9 @@ p {
 
 .apresentacao__links__link {
     /* background-color: #22d4fd; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #22d4fd;
     width: 378px;
     text-align: center;
@@ -77,5 +80,16 @@ p {
     text-decoration: none;
     color: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
-    
+}
+.apresentacao__links__link:hover{
+    background-color: #272727;
+}
+.rodape{
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
