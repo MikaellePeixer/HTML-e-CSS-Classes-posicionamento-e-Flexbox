@@ -38,6 +38,14 @@ body {
     color: var(--cor-terciaria);
     text-decoration: none; 
 }
+
+p {
+    margin: 10px; /* Define uma margem de 10 pixels ao redor dos parágrafos */
+    /*border: 2px solid black;  Adiciona uma borda preta de 2 pixels ao redor dos parágrafos */
+    padding: 5px; /* Adiciona um preenchimento de 5 pixels dentro dos parágrafos */
+
+}
+/* Seleciona a classe .apresentacao para aplicar os estilos */
 .apresentacao {  
     /* Define uma margem de 10% em todos os lados, criando espaçamento externo */
     padding: 8% 15%;   
