@@ -9,18 +9,16 @@
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
-
-* {
+*{
     margin: 0; /* Remove a margem padrão de todos os elementos */
     padding: 0; /* Remove o preenchimento padrão de todos os elementos */
 }
 
 body {
-    height: 100vh; /* Define a altura do corpo da página para 100% da altura da janela de visualização (viewport) */
     box-sizing: border-box;
     background-color: var(--cor-primaria); /* Define a cor de fundo do corpo como preta */
     color: var(--cor-secundaria); /* Define a cor do texto do corpo como um tom claro de cinza */
-    text-decoration: var(--cor-terciaria);
+    text-decoration: none;
 }
 
 .cabecalho {
@@ -30,23 +28,16 @@ body {
 .cabecalho__menu {
     display: flex;
     gap: 80px;
-}
-
-.cabecalho__menu__link {
-    font-family: var(--fonte-secundaria);
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--cor-terciaria);
     text-decoration: none;
 }
 
-p {
-    margin: 10px; /* Define uma margem de 10 pixels ao redor dos parágrafos */
-    border: 2px solid black; /* Adiciona uma borda preta de 2 pixels ao redor dos parágrafos */
-    padding: 5px; /* Adiciona um preenchimento de 5 pixels dentro dos parágrafos */
-
+.cabecalho__menu__navegacao {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none; 
 }
-/* Seleciona a classe .apresentacao para aplicar os estilos */
 .apresentacao {  
     /* Define uma margem de 10% em todos os lados, criando espaçamento externo */
     padding: 8% 15%;   
@@ -56,17 +47,18 @@ p {
     align-items: center;  
     /* Distribui os itens horizontalmente, colocando um no início e outro no final do container */
     justify-content: space-between;  
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
-    width: 615px; /* A largura do elemento será de 615 pixels */
+    width: 50%; /* A largura do elemento será de 615 pixels */
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px; /* O texto do título será exibido com um tamanho de 36 pixels */
+    font-size: 2.25rem; /* O texto do título será exibido com um tamanho de 36 pixels */
     font-family: var(--fonte-primaria);
 }
 
@@ -75,7 +67,7 @@ p {
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 24px; /* O texto terá um tamanho de 24 pixels */
+    font-size: 1.5rem; /* O texto terá um tamanho de 24 pixels */
     font-family: var(--fonte-secundaria);
 }
 
@@ -87,22 +79,22 @@ p {
     gap: 32px; /* Define um espaço de 32px entre cada item */
 }
 
-.apresentacao__links__subtitulos {
+.apresentacao__links__subtitulo {
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     /* background-color: #22d4fd; */
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -112,12 +104,26 @@ p {
 .apresentacao__links__link:hover{
     background-color: var(--cor--hover);
 }
+
+.apresentacao__imagem {
+    width: 50%;
+}
+
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+/*CSS media query dentro de um stylesheet */
+@media (max-width: 1200px)
+{
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+
 }
