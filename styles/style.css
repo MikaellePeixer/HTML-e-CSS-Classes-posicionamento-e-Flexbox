@@ -4,7 +4,7 @@
     --cor-primaria: #1A1A1D;
     --cor-secundaria: #3B1C32;
     --cor-terciaria: #6A1E55;
-    --cor--hover: #A64D79;
+    --cor-hover: #A64D79;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -18,7 +18,6 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-primaria); /* Define a cor de fundo do corpo como preta */
     color: var(--cor-secundaria); /* Define a cor do texto do corpo como um tom claro de cinza */
-    text-decoration: none;
 }
 
 .cabecalho {
@@ -40,9 +39,9 @@ body {
 }
 
 p {
-    margin: 10px; /* Define uma margem de 10 pixels ao redor dos parágrafos */
+    margin: 20px; /* Define uma margem de 10 pixels ao redor dos parágrafos */
     /*border: 2px solid black;  Adiciona uma borda preta de 2 pixels ao redor dos parágrafos */
-    padding: 5px; /* Adiciona um preenchimento de 5 pixels dentro dos parágrafos */
+    padding: 10px; /* Adiciona um preenchimento de 5 pixels dentro dos parágrafos */
 
 }
 /* Seleciona a classe .apresentacao para aplicar os estilos */
@@ -91,6 +90,7 @@ p {
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 1.5rem;
+    text-decoration: none;
 }
 
 .apresentacao__links__navegacao {
@@ -110,7 +110,7 @@ p {
     font-family: var(--fonte-secundaria)
 }
 .apresentacao__links__link:hover{
-    background-color: var(--cor--hover);
+    background-color: var(--cor-hover);
 }
 
 .apresentacao__imagem {
@@ -141,6 +141,10 @@ p {
 
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
     }
 
 }
