@@ -47,8 +47,8 @@ p {
 /* Seleciona a classe .apresentacao para aplicar os estilos */
 .apresentacao {  
     /* Define uma margem de 10% em todos os lados, criando espaçamento externo */
-    padding: 8% 15%;   
-    /* Define o modelo de exibição como flexível, permitindo o alinhamento dos elementos internos */
+    padding: 5% 15%;   
+    /* 5% é altura e 15% é as laterais.Define o modelo de exibição como flexível, permitindo o alinhamento dos elementos internos */
     display: flex;  
     /* Alinha os itens verticalmente ao centro dentro do container */
     align-items: center;  
